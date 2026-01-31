@@ -7,8 +7,8 @@ public class TableHandling extends Base{
 	
 	public void verifyTable() {
 		driver.navigate().to("https://money.rediff.com/indices/nse");	
-		WebElement table=driver.findElement(By.id("dataTable"));
-		//System.out.println(table.getText());
+		WebElement fulltable=driver.findElement(By.id("dataTable"));
+		//System.out.println(fulltable.getText());
 		WebElement tablerow=driver.findElement(By.xpath("//table[@id='dataTable']//tbody//tr[2]"));
 		System.out.println(tablerow.getText());
 		WebElement tabledata=driver.findElement(By.xpath("//table[@id='dataTable']//tbody//tr[5]//td[5]"));
