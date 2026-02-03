@@ -1,3 +1,4 @@
+
 package seleniumBasics;
 
 import org.openqa.selenium.By;
@@ -31,10 +32,10 @@ public class Locator extends Base{
 		//4. preceding
 		driver.findElement(By.xpath("//button[@id='button-one']//preceding::div[@class='card']"));
 		
-		//5. ancestor
+		//5. ancestor(Multiple elements will be inspected) 
 		driver.findElement(By.xpath("//button[@id='button-one']//ancestor::div"));
 		
-		//6. descendant
+		//6. descendant(Multiple elements will be inspected) 
 		driver.findElement(By.xpath("//div[@class='card']//descendant::div"));
 		
                                                                     	
