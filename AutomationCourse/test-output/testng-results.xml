@@ -2,23 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-03T22:47:41 IST" name="Default suite" finished-at="2026-02-03T22:48:03 IST" duration-ms="21804">
+  <suite started-at="2026-02-04T23:01:59 IST" name="Default suite" finished-at="2026-02-04T23:02:34 IST" duration-ms="35702">
     <groups>
     </groups>
-    <test started-at="2026-02-03T22:47:41 IST" name="Default test" finished-at="2026-02-03T22:48:03 IST" duration-ms="21804">
+    <test started-at="2026-02-04T23:01:59 IST" name="Default test" finished-at="2026-02-04T23:02:34 IST" duration-ms="35702">
       <class name="testScripts.LoginTest">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testScripts.LoginTest@4f83df68]" started-at="2026-02-03T22:47:41 IST" name="browserLaunch" finished-at="2026-02-03T22:47:59 IST" duration-ms="17982" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testScripts.LoginTest@799f10e1]" started-at="2026-02-04T23:01:59 IST" name="browserLaunch" finished-at="2026-02-04T23:02:33 IST" duration-ms="34154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="verifyUserWithValidCredentials()[pri:0, instance:testScripts.LoginTest@4f83df68]" started-at="2026-02-03T22:47:59 IST" name="verifyUserWithValidCredentials" finished-at="2026-02-03T22:48:02 IST" duration-ms="3078" status="PASS">
+        <test-method signature="verifyUserWithValidCredentials()[pri:0, instance:testScripts.LoginTest@799f10e1]" started-at="2026-02-04T23:02:33 IST" name="verifyUserWithValidCredentials" finished-at="2026-02-04T23:02:34 IST" duration-ms="1374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserWithValidCredentials -->
-        <test-method is-config="true" signature="browserCloseQuit()[pri:0, instance:testScripts.LoginTest@4f83df68]" started-at="2026-02-03T22:48:02 IST" name="browserCloseQuit" finished-at="2026-02-03T22:48:03 IST" duration-ms="655" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserCloseQuit -->
       </class> <!-- testScripts.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

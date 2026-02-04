@@ -14,9 +14,8 @@ public class TestNGBase {
 		driver.manage().window().maximize();
 	}
 	
-	@AfterMethod
+/*	@AfterMethod
 	public void browserCloseQuit() {
 		driver.quit();
-		
-		}
+	}*/
 }
